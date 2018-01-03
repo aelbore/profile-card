@@ -1,0 +1,7 @@
+node_modules/
+dist/
+ng-profile-card-demo/
+preact-profile-card-demo/
+public/angular.js
+public/index.html
+.DS_Store

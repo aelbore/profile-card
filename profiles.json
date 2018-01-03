@@ -1,0 +1,65 @@
+[
+  {
+    "name": "Aivan Monceller",
+    "email": "Aivan.Monceller@sc.com",
+    "avatarUrl": "assets/img/avatar/aivan.jpg",
+    "profession": "Developer",
+    "motto": "When in doubt, iterate faster!",
+    "title": "Angular 2 Guru",
+    "skills": "Angular 2 Guru"
+  },
+  {
+    "name": "Arjay Elbore",
+    "email": "arjaybetito.elbore@sc.com",
+    "avatarUrl": "assets/img/avatar/elbore.jpg",
+    "profession": "Framework Developer",
+    "motto": "I never wanted to be famous, I wanted to be great.",
+    "title": "UI Guru",
+    "skills": "Angular JS 1 and 2, Javascript, ASP, HTML5, Forever"
+  },
+  {
+    "name": "Christopher Lloyd",
+    "email": "christopherllyod.ramos@sc.com",
+    "avatarUrl": "assets/img/avatar/ramos.jpg",
+    "profession": "UX Developer",
+    "motto": "Genius is the ability to reduce the complicated to the simple.",
+    "title": "UX Guy",
+    "skills": "Web design, Photoshop, Illustrator, Sketchapp, Balsamiq, HTML5, CSS3, Javascript, etc."
+  },
+  {
+    "name": "Martin Llaneza",
+    "email": "josemartinferrera.llanzea@sc.com",
+    "avatarUrl": "assets/img/avatar/llaneza.jpg",
+    "profession": "UI Developer",
+    "motto": "The key to performance is elegance, not battalions of special cases.",
+    "title": "UI Superstar",
+    "skills": "Angular JS 1 and 2, Javascript, HTML5, PHP, Jenkins"
+  },
+  {
+    "name": "Melvin Vivas",
+    "email": "melvin.vivas@sc.com",
+    "avatarUrl": "assets/img/avatar/vivas.jpg",
+    "profession": "Manager - Solutions Engineering",
+    "motto": "When in Doubt, Iterate Faster.",
+    "title": "UI Superstar",
+    "skills": "Java, Software Development, iOS development, Web services, PHP, etc."
+  },
+  {
+    "name": "Murali Pusuluri",
+    "email": "MuraliKrishna.Pusuluri@sc.com",
+    "avatarUrl": "assets/img/avatar/murali.jpg",
+    "profession": "UI Developer",
+    "motto": "To iterate is human, to recurse is divine.",
+    "title": "The Angular Master",
+    "skills": "Angular JS 1 and 2, Javascript, HTML5, Forever."
+  },
+  {
+    "name": "Nox Mendina",
+    "email": "Rogelio-Mendina.Nocom@sc.com",
+    "avatarUrl": "assets/img/avatar/nox.jpg",
+    "profession": "Sr. Manager - Solutions Engineering",
+    "motto": "When in doubt, iterate faster!",
+    "title": "Chief Janitor",
+    "skills": "Mobile applications, Unix, Java, Javascript, Software Project Management, etc"
+  }
+]

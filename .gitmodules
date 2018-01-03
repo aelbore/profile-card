@@ -1,0 +1,6 @@
+[submodule "ng-profile-card-demo"]
+	path = ng-profile-card-demo
+	url = https://github.com/aelbore/ng-profile-card-demo.git
+[submodule "preact-profile-card-demo"]
+	path = preact-profile-card-demo
+	url = https://github.com/aelbore/preact-profile-card-demo.git

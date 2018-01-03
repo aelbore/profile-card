@@ -1,0 +1,36 @@
+<div class="card-container">
+  <div class="card">
+    <div class="front">
+      <div class="cover"></div>
+      <div class="user">
+        <img class="img-circle" src="{{ profile?.avatarUrl }}"/>
+      </div>
+      <div class="content">
+        <div class="main">
+          <h3 class="name">{{ profile?.name }}</h3>
+          <p class="profession">{{ profile?.profession }}</p>
+          <p class="text-center">{{ profile?.motto }}</p>
+        </div>
+      </div>
+    </div>
+    <div class="back">
+      <div class="header">
+        <h3 class="name">{{ profile?.name }}</h3>
+        <h5 class="motto">{{ profile?.title }}</h5>
+      </div>
+      <div class="content">
+        <div class="main">
+          <h4 class="text-center">Skills</h4>
+          <p class="text-center">{{ profile?.skills }}</p>
+          <hr>
+          <p class="text-center email">
+            <a class="btn-pack" type="button" href="mailto:{{ profile?.email }}?Subject=Sent%20from%20Dev%20page">
+              <span class="btn-text">Email me</span>
+              <span class="btn-icon"><i class="fa fa-envelope fa-2x"></i></span>
+            </a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
