@@ -21,6 +21,7 @@ https://en.wikipedia.org/wiki/Web_Components
 ##### Clone Repository
 ```
 https://github.com/aelbore/profile-card.git
+cd profile-card
 
 git submodule init
 git submodule update --remote
