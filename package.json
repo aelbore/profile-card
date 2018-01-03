@@ -5,6 +5,7 @@
   "scripts": {
     "gulp": "node_modules/.bin/gulp",
     "bundle": "node_modules/.bin/gulp bundle",
+    "vendor:bundle": "node_modules/.bin/gulp vendor:bundle",
     "start": "node_modules/.bin/gulp"
   },
   "repository": {

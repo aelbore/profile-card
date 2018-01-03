@@ -28,6 +28,7 @@ git submodule update --remote
 npm install
 
 npm run bundle
+npm run vendor:bundle
 ```  
 <br />
 
