@@ -33,7 +33,7 @@ npm run vendor:bundle
 ```  
 <br />
 
-##### Install submodules depedencies
+##### Install submodules dependencies
 ```
 npm install --prefix ng-profile-card-demo
 npm install --prefix preact-profile-card-demo
