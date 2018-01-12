@@ -3,7 +3,6 @@ const utils = require('./bundle-utils');
 
 module.exports = {
   "src": [ "src/**/*.ts", "!src/**/*.spec.ts" ],
-  "minify": process.env.PROD,
   "rollup": {
     "entry": utils.entry,
     "umdName": utils.moduleId + '.umd.js',

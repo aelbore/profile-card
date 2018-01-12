@@ -2,7 +2,7 @@ const config = require('./bundle-config');
 const utils = require('./bundle-utils');
 
 module.exports = {
-  input: `${config.folder.build}/${config.rollup.entry}`,
+  input: `${config.folder.tmp}/esm5/${config.rollup.entry}`,
   format: 'umd',
   exports: 'named',
   name: config.rollup.moduleName,

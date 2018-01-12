@@ -5,3 +5,6 @@ preact-profile-card-demo/
 public/angular.js
 public/index.html
 .DS_Store
+.tmp
+build
+esm2015

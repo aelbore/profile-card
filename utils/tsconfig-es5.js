@@ -15,7 +15,7 @@ module.exports = {
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
     "moduleResolution": "node",
-    "outDir": "../build",
+    "outDir": "./esm5",
     "rootDir": ".",
     "lib": ["es2015", "dom"],
     "skipLibCheck": true,
@@ -29,6 +29,6 @@ module.exports = {
     "flatModuleId": `${pkgName}`
   },
   "files": [
-    "./index.ts"
+    "./public_api.ts"
   ]
 }
