@@ -5,7 +5,5 @@ const argv = require('yargs')
   .option('type', { default: null, type: 'string' })
   .argv;
 
-process.env.APP_ROOT_PATH = __dirname;
-
-glob.sync(path.join(process.env.APP_ROOT_PATH, './tasks/**/*.js'))
+glob.sync(path.resolve('./tasks/**/*.js'))
   .forEach(task => require(task));

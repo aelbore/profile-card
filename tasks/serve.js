@@ -18,7 +18,7 @@ gulp.task('replace:html', (done) => {
       let replaceString = 'preact-profile-card-demo.js';
       switch(argv.type) {
         case 'angular': 
-          replaceString = 'ng-profile-card-demo.umd.js';
+          replaceString = 'ng-profile-card-demo.umd.min.js';
           break;
       }
       const newFileString = htmlFileString.replace('${file-bundle}', replaceString);
