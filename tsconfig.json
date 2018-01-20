@@ -11,10 +11,7 @@
     "rootDir": "src",
     "declaration": true,
     "allowSyntheticDefaultImports": true,
-    "baseUrl": "."
-  },
-  "exclude": [
-    "node_modules",
-    "dist"
-  ]
+    "baseUrl": ".",
+    "lib": ["es5", "es6", "dom"]
+  }
 }

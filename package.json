@@ -5,8 +5,11 @@
   "scripts": {
     "gulp": "node_modules/.bin/gulp",
     "bundle": "node_modules/.bin/gulp bundle",
+    "build": "node_modules/.bin/gulp build",
+    "build:watch": "node_modules/.bin/gulp build:watch",
     "vendor:bundle": "node_modules/.bin/gulp vendor:bundle",
-    "start": "node_modules/.bin/gulp"
+    "start": "node_modules/.bin/gulp",
+    "tslint": "node_modules/.bin/gulp tslint"
   },
   "repository": {
     "type": "git",
@@ -22,20 +25,20 @@
     "@types/gulp": "4.0.5",
     "@types/node": "9.3.0",
     "express": "4.16.2",
-    "gulp": "3.9.1",
+    "gulp": "4.0.0",
     "gulp-concat": "2.6.1",
     "gulp-develop-server": "0.5.2",
-    "gulp-sequence": "1.0.0",
-    "gulp-sourcemaps": "2.6.3",
     "gulp-strip-comments": "2.5.2",
-    "ngx-bundle": "0.0.5"
+    "ngx-build": "latest",
+    "ngx-bundle": "latest",
+    "ngx-lint": "latest"
   },
   "dependencies": {
     "@angular/animations": "5.2.0",
     "@angular/common": "5.2.0",
     "@angular/core": "5.2.0",
-    "@angular/elements": "github:angular/elements-builds#labs/elements",
     "@angular/forms": "5.2.0",
+    "@angular/elements": "github:angular/elements-builds#labs/elements",
     "@angular/http": "5.2.0",
     "@angular/platform-browser": "5.2.0",
     "@angular/platform-browser-dynamic": "5.2.0",

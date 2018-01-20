@@ -1,8 +1,7 @@
-const gulp = require('gulp');
-const ngxBundle = require('ngx-bundle');
+const { bundle, rimraf } = require('ngx-bundle');
 
-gulp.task('bundle', async (done) => {
-  await Promise.all([ ngxBundle.rimraf('dist'), ngxBundle.rimraf('.tmp') ])
-    .then(() => ngxBundle.bundle())
-    .then(() => ngxBundle.rimraf('.tmp'));
-});
+exports.bundleAsync = async ()  => { 
+  await Promise.all([ rimraf('dist'), rimraf('.tmp') ])
+    .then(() => bundle())
+    .then(() => rimraf('.tmp'));
+};
