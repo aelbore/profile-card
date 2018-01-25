@@ -24,25 +24,26 @@
   "devDependencies": {
     "@types/gulp": "4.0.5",
     "@types/node": "9.3.0",
+    "@ngx-devtools/build": "latest",
+    "@ngx-devtools/bundle": "latest",
+    "@ngx-devtools/lint": "latest",
+    "@ngx-devtools/test": "latest",
     "express": "4.16.2",
     "gulp": "4.0.0",
     "gulp-concat": "2.6.1",
     "gulp-develop-server": "0.5.2",
-    "gulp-strip-comments": "2.5.2",
-    "ngx-build": "latest",
-    "ngx-bundle": "latest",
-    "ngx-lint": "latest"
+    "gulp-strip-comments": "2.5.2"
   },
   "dependencies": {
-    "@angular/animations": "5.2.0",
-    "@angular/common": "5.2.0",
-    "@angular/core": "5.2.0",
-    "@angular/forms": "5.2.0",
+    "@angular/animations": "5.2.2",
+    "@angular/common": "5.2.2",
+    "@angular/core": "5.2.2",
+    "@angular/forms": "5.2.2",
+    "@angular/http": "5.2.2",
     "@angular/elements": "github:angular/elements-builds#labs/elements",
-    "@angular/http": "5.2.0",
-    "@angular/platform-browser": "5.2.0",
-    "@angular/platform-browser-dynamic": "5.2.0",
-    "@angular/router": "5.2.0",
+    "@angular/platform-browser": "5.2.2",
+    "@angular/platform-browser-dynamic": "5.2.2",
+    "@angular/router": "5.2.2",
     "rxjs": "5.5.0",
     "zone.js": "0.8.4"
   }

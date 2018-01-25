@@ -2,7 +2,7 @@ const vfs = require('vinyl-fs');
 
 const { buildAsync, buildWatchdAsync } = require('./build');
 const { bundleAsync } = require('./bundle');
-const { tslint, reporter } = require('ngx-lint');
+const { tslint, reporter } = require('@ngx-devtools/lint');
 
 const streamToPromise = async (strm) =>{
   await new Promise((resolve, reject) => {

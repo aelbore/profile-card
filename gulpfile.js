@@ -9,6 +9,7 @@ const { Transform } = require('stream');
 const { writeFileSync, readFileSync } = require('fs');
 
 const { buildAsync, buildWatchdAsync, bundleAsync, tslintAsync, streamToPromise } = require('./tasks');
+const { karmaServeAsync } = require('@ngx-devtools/test/utils');
 
 const argv = require('yargs')
   .option('type', { default: null, type: 'string' })
@@ -48,5 +49,7 @@ gulp.task('bundle', async () => await bundleAsync());
 gulp.task('default', async () => await serveAsync());
 
 gulp.task('tslint', async () => await tslintAsync());
+
+gulp.task('test', async () => await karmaServeAsync());
 
 require('./tasks/vendor-bundle');

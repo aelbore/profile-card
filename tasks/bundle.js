@@ -1,4 +1,4 @@
-const { bundle, rimraf } = require('ngx-bundle');
+const { bundle, rimraf } = require('@ngx-devtools/bundle');
 
 exports.bundleAsync = async ()  => { 
   await Promise.all([ rimraf('dist'), rimraf('.tmp') ])
