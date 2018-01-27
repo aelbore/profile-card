@@ -8,7 +8,8 @@ const { resolve, join } = require('path');
 const { Transform } = require('stream');
 const { writeFileSync, readFileSync } = require('fs');
 
-const { buildAsync, buildWatchdAsync, bundleAsync, tslintAsync, streamToPromise } = require('./tasks');
+const { buildAsync, buildWatchdAsync, bundleAsync, tslintAsync } = require('./tasks');
+const { streamToPromise } = require('@ngx-devtools/common');
 const { karmaServeAsync } = require('@ngx-devtools/test/utils');
 
 const argv = require('yargs')
