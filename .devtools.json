@@ -1,1 +1,12 @@
-{}
+{
+  "server": {
+    "distRoot": "public",
+    "staticFolders": [  
+      { "route": "", "path": "public" },
+      { "route": "dist", "path": "dist" }, 
+      { "route": "dist", "path": "ng-profile-card-demo/dist" },
+      { "route": "dist", "path": "preact-profile-card-demo/dist" },
+      { "route": "node_modules", "path": "node_modules" }
+    ]
+  }
+}

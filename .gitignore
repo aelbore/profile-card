@@ -8,3 +8,4 @@ public/index.html
 .tmp
 build
 esm2015
+package-lock.json
