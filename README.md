@@ -28,31 +28,50 @@ git submodule update --remote
 
 npm install
 
-npm run bundle
 npm run vendor:bundle
 ```  
 <br />
 
+##### Install ngx cli
+```
+npm install -g @ngx-devtools/cli
+```
+<br />
+
+##### Bundle Profile Card Angular Elements
+```
+ngx run bundle
+```
+<br />
+
 ##### Install submodules dependencies
 ```
-npm install --prefix ng-profile-card-demo
-npm install --prefix preact-profile-card-demo
+cd ng-profile-card-demo
+npm install
+
+cd ..
+cd preact-profile-card-demo
+npm install
 ```
 <br />
 
 ##### Bundle or Build dependencies
 ```
-npm run build --prefix preact-profile-card-demo
-npm run bundle --prefix ng-profile-card-demo
+cd ng-profile-card-demo
+ngx run bundle
+
+cd ..
+cd preact-profile-card-demo
+npm run build
 ```
 <br />
 
 ##### Start the application
 ```
 /// for Preact
-npm start -- --type preact
+ngx run serve --type preact
 
 /// for Angular
-npm start -- --type angular
+ngx run serve --type angular
 ```
 
